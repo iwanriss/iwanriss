@@ -1,0 +1,156 @@
+body{
+    background-color: #d1e7e4;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif
+}
+
+a{
+    text-decoration: none;
+}
+.judul{
+    width: 100%;
+    height: 100%;
+    font-size: 24;
+
+}
+.judul a{
+    text-decoration: none;
+    color: black;
+}
+
+.judul ul{
+    display: inline-flex;
+    margin: 20px;
+    list-style: none;
+
+}
+.judul ul li{
+    margin: 10px 50px 10px 10px;
+    color: white;
+    cursor: pointer;
+}
+.kontak a{
+    text-decoration: none;
+    color: black;
+}
+.kontak{
+    position: absolute;
+    margin-left: 1350px;
+    margin-top: 7px;
+    
+}
+
+
+.menu{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+.tengah{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.tengah h1{
+    color: white;
+    font-size: 55px;
+}
+
+.trip1{
+    width: 70%;
+    height: 400px;
+    margin-left: 0px;
+    line-height: 50px;
+    background: #22495a;
+    position: absolute;
+    top: 100px;
+}
+.tekstrip1 a{
+    text-decoration: none;
+    color: white;
+}
+.tekstrip1{
+    position: absolute;
+    padding-top: 160px;
+    margin-left: 650px;
+    font-size: 60;
+}
+.gbrtrip1{
+    position: absolute;
+    width: 500px;
+    height: 360px;
+    padding-top: 20px;
+    padding-left: 35px;
+    
+}
+.trip2{
+    width: 70%;
+    height: 400px;
+    margin-left: 480px;
+    line-height: 50px;
+    background: #22495a;
+    position: absolute;
+    top: 600px;
+}
+.tekstrip2 a{
+    text-decoration: none;
+    color: white;
+}
+.tekstrip2{
+    position: absolute;
+    padding-top: 160px;
+    margin-left: 50px;
+    font-size: 60;
+}
+.gbrtrip2{
+    position: absolute;
+    width: 500px;
+    height: 360px;
+    padding-top: 20px;
+    padding-left: 500px;
+    
+}
+.trip3{
+    width: 70%;
+    height: 400px;
+    margin-left: 0px;
+    line-height: 50px;
+    background: #22495a;
+    position: absolute;
+    top: 1100px;
+}
+.tekstrip3 a{
+    text-decoration: none;
+    color: white;
+}
+.tekstrip3{
+    position: absolute;
+    padding-top: 160px;
+    margin-left: 650px;
+    font-size: 60;
+}
+.gbrtrip3{
+    position: absolute;
+    width: 500px;
+    height: 360px;
+    padding-top: 20px;
+    padding-left: 35px;
+    
+}
+.footer{
+    width: 100%;
+    height: 130px;
+    padding-left: 10px;
+    line-height: 50px;
+    background: #014461;
+    color: #fff;
+    position: absolute;
+    top: 2000px;
+}

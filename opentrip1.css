@@ -1,0 +1,91 @@
+body{
+    background-color: #d1e7e4;
+    background-image: url(mashudi-soedjono-bCr1OlF_VOw-unsplash2.png);
+    background-size: 100% 60%;
+    background-repeat: no-repeat;
+    
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif
+}
+a{
+    text-decoration: none;
+}
+
+.judul{
+    width: 100%;
+    height: 100%;
+    font-size: 24;
+
+}
+
+.judul ul{
+    display: inline-flex;
+    margin: 20px;
+    list-style: none;
+
+}
+.judul ul li{
+    margin: 10px 50px 10px 10px;
+    color: white;
+    cursor: pointer;
+}
+.kontak a{
+    text-decoration: none;
+    color: white;
+}
+.kontak{
+    position: absolute;
+    margin-left: 1350px;
+    margin-top: 7px;
+}
+
+.menu{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+.tengah{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.tengah h1{
+    color: white;
+    font-size: 55px;
+}
+
+
+
+
+.destinasi h1{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    color: black;
+    font-size: 35px;
+    transform: translate(-50%,-50%);
+}
+.destinasi p{
+    position: absolute;
+    top: 130%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+.footer{
+    width: 100%;
+    height: 130px;
+    padding-left: 10px;
+    line-height: 50px;
+    background: #014461;
+    color: #fff;
+    position: absolute;
+    top: 1800px;
+
